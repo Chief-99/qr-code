@@ -1,14 +1,36 @@
+* {
+    box-sizing: border-box;
+}
+
 html, body {
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
     height: 100%;
 }
 
 body {
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
+    justify-content: space-between;
+    background-color: #D5E1EF;
+}
 
+.container {
+    background-color: #FFF;
+    width: 320px;
+    height: 500px;
+    padding: 16px;
+    text-align: center;
+    margin: auto;
+}
+
+.footer{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 60;
+    background-color: #fcfeff;
+    padding: 5px;
+    text-align: center;
 }
