@@ -7,7 +7,10 @@
     src: url(fonts/Outfit/static/Outfit-Black.ttf);
 }
 
-
+@font-face {
+    font-family: Outfit;
+    src: url(fonts/Outfit/static/Outfit-Bold.ttf)
+}
 
 html, body {
     margin: 0;
@@ -46,5 +49,8 @@ body {
 }
   
 h1 {
-
+    font-size: 22px;
+    font-family: Outfit, Arial, sans-serif;
+    line-height: 120%;
+    letter-spacing: 0;
 }
