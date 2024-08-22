@@ -2,6 +2,13 @@
     box-sizing: border-box;
 }
 
+@font-face {
+    font-family: Outfit;
+    src: url(fonts/Outfit/static/Outfit-Black.ttf);
+}
+
+
+
 html, body {
     margin: 0;
     padding: 0;
@@ -16,6 +23,8 @@ body {
     background-color: #D5E1EF;
 }
 
+
+                                        /* * container  */
 .container {
     background-color: #FFF;
     width: 320px;
@@ -25,6 +34,7 @@ body {
     margin: auto;
 }
 
+                                        /* * footer  */
 .footer{
     position: absolute;
     bottom: 0;
@@ -33,4 +43,8 @@ body {
     background-color: #fcfeff;
     padding: 5px;
     text-align: center;
+}
+  
+h1 {
+
 }
